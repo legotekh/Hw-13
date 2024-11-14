@@ -1,0 +1,25 @@
+.first{
+    fill: black;
+    animation: move 3s;
+    stroke:#502c2c;
+    stroke-width: 5;}
+.second{
+    fill: gray;
+    stroke:#dcff4f;
+    stroke-width: 5;
+}
+.third{
+    fill: green;
+    stroke:#0d01ff;
+    stroke-width: 5;}
+.four{
+    fill: yellow;
+    stroke:#ff01d5;
+    stroke-width: 5;
+}
+@keyframes move {
+    100%{
+        fill: aqua;
+        stroke: #dcff4f;
+    }
+}
